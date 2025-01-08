@@ -17,7 +17,7 @@ const AdminDashboard = () => {
     console.log("What We Provide Data Submitted:", provideData);
     
     try {
-      const response = await axios.post("http://localhost:8000/api/v1/post/feature", {
+      const response = await axios.post("https://mysite-full-backend.onrender.com/api/v1/post/feature", {
         title: provideData.title,
         description: provideData.description,
       });
