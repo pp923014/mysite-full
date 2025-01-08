@@ -9,7 +9,7 @@ const OurTrainee = () => {
     try {
       // Send a GET request to search for a trainee by certificate number
       const response = await fetch(
-        `http://localhost:8000/api/v1/trainee/searchByCertificate?certificate=${certificateNo}`
+        `https://mysite-full-backend.onrender.com/api/v1/trainee/searchByCertificate?certificate=${certificateNo}`
       );
 
       if (response.ok) {
