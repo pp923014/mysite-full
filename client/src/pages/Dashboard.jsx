@@ -14,7 +14,7 @@ const Dashboard = () => {
         }
 
         // Fetch user data
-        const userResponse = await fetch('http://localhost:8000/api/v1/user/get', {
+        const userResponse = await fetch('https://mysite-full-backend.onrender.com/api/v1/user/get', {
           method: 'GET',
           headers: {
             Authorization: `Bearer ${token}`,
