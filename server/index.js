@@ -12,7 +12,7 @@ import path from "path";
 dotenv.config();
 
 
-const PORT = process.env.PORT || 8000;
+const port = process.env.PORT || 8000;
 
 const __dirname = path.resolve();
 
@@ -36,7 +36,7 @@ app.get("*", (req,res)=>{
 })
 
 
-server.listen(PORT,'0.0.0.0', () => {
+server.listen(port,'0.0.0.0', () => {
     connectDB();
-    console.log(`Server listen at port ${PORT}`);
+    console.log(`Server listen at port ${port}`);
 });
