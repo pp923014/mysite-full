@@ -23,7 +23,7 @@ const ApplyNowPage = () => {
     setMessage("");
 
     try {
-      const response = await fetch("http://localhost:8000/api/v1/trainee/addTrinee", {
+      const response = await fetch("https://mysite-full-backend.onrender.com/api/v1/trainee/addTrinee", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
