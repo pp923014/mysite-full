@@ -45,7 +45,7 @@
 //   // Handle Logout by calling backend API
 //   const handleLogout = async () => {
 //     try {
-//       const response = await fetch('http://localhost:8000/api/v1/user/logout', {
+//       const response = await fetch('https://mysite-full-backend.onrender.com/api/v1/user/logout', {
 //         method: 'GET',
 //         credentials: 'include', // Include cookies if required
 //       });
